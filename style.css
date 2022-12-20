@@ -732,4 +732,26 @@ footer p{
   }
 
   }
-  
+  /* --------------------------------------------temp */
+  .maint-pop{
+    width: 80%;
+    height: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    position: fixed;
+    /* transform: translate(-50%,-50%); */
+    top: 20%;
+    left: 10%;
+    background: #fff;
+    display: block;
+    margin: auto;
+    z-index: 100000;
+    
+  }
+  .maint-pop h1{
+    margin-top: 10%;
+  }

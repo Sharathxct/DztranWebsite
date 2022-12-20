@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="swiper-bundle.min.css">
   </head>
   <body>
-    <div class="all" id="all">
+    <div class="all active" id="all">
     <section class="landing">  
       <div class="home-cont">
         
@@ -362,6 +362,14 @@
 
 
 
+<div class="maint-pop" id="mtp">
+     <h1>Website under maintenance</h1>
+     <h2>Reach us at <a href="tel:7075877040">+91 7075877040</a></h2>
+     <h2>still want to explore?</h2>
+     <button onclick="maint_pop()">continue</button>
+</div>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
@@ -391,8 +399,9 @@
           enScroll();
         }
       })
+      var blur = document.getElementById('all')
       function cont_pop(){ 
-            var blur = document.getElementById('all')
+            
             blur.classList.toggle('active')
             var popup = document.getElementById('cont-pop-cont');
             popup.classList.toggle('active');
@@ -400,8 +409,25 @@
               check.checked = false;
               enScroll();
             }
-        }
+          }
+          const maintpop = document.getElementById('mtp')
+      function maint_pop(){
         
+        // var blur = document.getElementById('all')
+        
+        blur.classList.toggle('active')
+
+        
+
+        maintpop.style.display='none'
+
+      }
+
+      setInterval(() => {
+        maintpop.style.display='block'
+        blur.classList.toggle('active')
+      }, 10000);
+      
     </script>
   </body>
      <!-- Swiper JS -->
