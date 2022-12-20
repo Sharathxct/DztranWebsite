@@ -422,11 +422,14 @@
         maintpop.style.display='none'
 
       }
-
+      
       setInterval(() => {
+        if(maintpop.style.display=='none'){
         maintpop.style.display='block'
         blur.classList.toggle('active')
+      }
       }, 10000);
+    
       
     </script>
   </body>
