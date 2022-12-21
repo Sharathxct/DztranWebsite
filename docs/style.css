@@ -23,6 +23,7 @@
   }
   .maint-pop img{
     padding-top: 0%;
+    height: 99%;
   }
   
   @media (max-width: 858px){
