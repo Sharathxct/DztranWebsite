@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dztran Technologies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/27442b3215.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="../swiper-bundle.min.css">
+  </head>
+  <body>
+    <div class="all active" id="all">
+    <section class="landing">  
+      <div class="home-cont">
+        
+        <div class="nav-cont">
+          <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+            <i class="fas fa-bars menu" id="menu"></i>
+            </label>
+            <label class="logo">D<span class="red">z</span>tran</label>
+            <ul>
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="#">Insights</a></li>
+              <li><a href="#">About</a></li>
+              <li><a onclick="cont_pop()">Contact</a></li>
+
+            </ul>
+          </nav>
+        </div>
+
+        <div class="landing-cont">
+          <div class="landing-text">
+            <h1><span class="dyn-text"></span></h1>
+            <h1>Through</h1>
+            <h1>Innovative Technologies</h1>
+          </div>
+          <div class="landing-img">
+            <img src="images/landing.jpg" alt="" class="land-vec">
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+    <section class="about">
+      <div class="about-cont">
+        <div class="about-des">
+          <h1>Our Mission</h1>
+          <p>We believe that every student, irrespective of their college or branch, can make it big. Dztran is an initiative built on this thought. We provide hands-on training, expert guidance with career, Open Source, and internships, jobs around the world.</p>
+        </div>
+        <div class="ab-cards">
+          <div class="cardi">
+            <i class="fa-sharp fa-solid fa-user-tie"></i>
+            <h3>Training Experts</h3>
+            <p>Industry level expert train and guide you through the process to make sure you the best.</p>
+          </div>
+
+          <div class="cardi">
+            <i class="fa-solid fa-hands-holding-circle"></i>
+            <h3>Hands-on Experience</h3>
+            <p>We make sure you get the hands-on experience by guiding you through the projects.</p>
+          </div>
+
+          <div class="cardi">
+            <i class="fa-solid fa-arrow-up-right-dots"></i>
+            <h3>Career guidance</h3>
+            <p>Not just the technical skill, we are into everything which take acheive greater things</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <section class="courses" id="courses">
+      <div class="course-cont">
+        <div class="course-head">
+          <h1>Courses we offer</h1>
+          <p>Access the course and become the expert in the respective technology and be job ready.</p>
+        </div>
+
+
+        <div class="course-cards">
+          <div class="card-course">
+            <img src="images/blockchain.jpg" alt="">
+            <h3>Blockchain</h3>
+            <p>Blockchain technology is its promising application in the industrial sector. Blockchain technology and network prove to be a perfect solution to monitor and manage industrial operations especially supply chains.</p>
+          </div>
+
+          <div class="card-course">
+            <img src="images/cybersecurity.jpg" alt="">
+            <h3>CyberSecurity</h3>
+            <p>Cyber security is a system of technologies and protocols developed to shield necessary computing resources, electronic networks, and sensitive data against malicious attacks. </p>
+          </div>
+
+          <div class="card-course">
+            <img src="images/iot.jpg" alt="">
+            <h3>Internet of things</h3>
+            <p>Talking about the Internet, The Internet of Things (IoT) has become the talk of the town. In the near future, it is soon going to grab a strong foothold.</p>
+          </div>
+
+          <div class="card-course">
+            <img src="images/vlsi.jpg" alt="">
+            <h3>VLSI</h3>
+            <p>Very-large-scale integration (VLSI) is the process of creating an integrated circuit (IC) by combining thousands of transistors into a single chip.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="cta" id="cta">
+      <h1>Get more details</h1>
+      <a class="hero-btn" onclick="cont_pop()">CONTACT US</a>
+    </section>
+
+
+
+
+
+    <section class="testimonials">
+      <div class="test-head">
+        <h1>Listen from people what they said</h1>
+      </div>
+      <div class="slide-container swiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="images/profile1.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">David Dell</h2>
+                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        <!-- <button class="button">View More</button> -->
+                    </div>
+                </div>
+
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/profile2.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">David Dell</h2>
+                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        <!-- <button class="button">View More</button> -->
+                    </div>
+                </div>
+
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="images/profile3.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">David Dell</h2>
+                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        <!-- <button class="button">View More</button> -->
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="images/profile4.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">David Dell</h2>
+                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        <!-- <button class="button">View More</button> -->
+                    </div>
+                </div>
+
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/profile5.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">David Dell</h2>
+                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        <!-- <button class="button">View More</button> -->
+                    </div>
+                </div>
+
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/profile6.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">David Dell</h2>
+                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <!-- <button class="button">View More</button> -->
+                    </div>
+                </div>
+
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/profile7.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">David Dell</h2>
+                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        <!-- <button class="button">View More</button> -->
+                    </div>
+                </div>
+
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/profile8.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">David Dell</h2>
+                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        <!-- <button class="button">View More</button> -->
+                    </div>
+                </div>
+
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/profile9.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">David Dell</h2>
+                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        <!-- <button class="button">View More</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    </section>
+
+
+
+
+
+
+<!-- -------------------------------------------- Footer ---------------------------------------------------------->
+  <section class="footerrr">  
+    <footer>
+      <div class="container">
+          <div class="sec aboutus">
+              <h3>About Us</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis omnis, itaque voluptatibus.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, illo dolorem quisquam, harum rerum impedit laborum suscipit veritatis quos repudiandae accusamus molestiae architecto eum</p>
+              <ul class="skci">
+                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              </ul>
+          </div>
+          <div class="sec contact">
+              <h3>Contact info</h2>
+              <ul class="infof">
+                  <li>
+                      <span><i class="fa-solid fa-location-dot"></i></span>
+                      <span>Plot No #000<br>xyz , Chandhanagar<br>Hyderabad</span>
+                  </li>
+                  <li>
+                      <span><i class="fa-solid fa-phone"></i></span>
+                      <p><a href="tel:8888888888">+91 8888888888</a><br><a href="tel:9999999999">+91 9999999999</a></p>
+                  </li>
+                  <li>
+                      <span><i class="fa-regular fa-envelope"></i></span>
+                      <p><a href="mailto:example@mail.com">example@mail.com</a><br><a href="mailto:example2@mail.com">example2@mail.com</a></p>
+                  </li>
+              </ul>
+          </div>
+          <div class="sec site-map">
+              <h3>Site Map</h3>
+              <div class="map-loc">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d909.7501229824044!2d78.39691133674125!3d17.52287826522984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8e1b703a3951%3A0x510dec97ea4244f7!2sSri%20Sai%20Sadan!5e0!3m2!1sen!2sin!4v1654286410416!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <div class="cpyrit">
+      <p>Copyright © 2022 Dztran. All Rights Reserved.</p>
+  </div>
+</div>
+</section>
+</div>
+<div class="cont-pop-cont" id="cont-pop-cont">
+
+  <form action="">
+      <i class="fa fa-times" onclick="cont_pop()"></i>
+      <h4>Connect With Us</h4>
+      <div class="form-group">
+          <label for="">Name</label>
+          <input type="text" class="form-control" required>
+      </div>
+      <div class="form-group">
+          <label for="">Email</label>
+          <input type="text" class="form-control" required>
+      </div>
+      <div class="form-group">
+          <label for="">Message</label>
+          <input type="text" class="form-control" required>
+      </div>
+      <input type="submit" class="heroin-btn" value="CONNECT">
+  </form>
+</div>
+
+
+
+<div class="maint-pop" id="mtp">
+     <h1>Website under maintenance</h1>
+     <h2>Reach us at <a href="tel:7075877040">+91 7075877040</a></h2>
+     <h2>still want to explore?</h2>
+     <button onclick="maint_pop()">continue</button>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      
+    
+      var typed = new Typed(".dyn-text",{
+        strings: ["Empowering","Digitalizing","Automating","Making Life Simpler"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+      })
+
+      
+      const menu = document.getElementById('menu');
+      function disScroll(){
+        document.body.style.overflow="hidden";
+      }
+      function enScroll(){
+        document.body.style.overflow="initial";
+      }
+      const check = document.getElementById('check');
+      menu.addEventListener('click', function(){
+        if(!(check.checked)){
+          disScroll();
+        }
+        else{
+          enScroll();
+        }
+      })
+      var blur = document.getElementById('all')
+      function cont_pop(){ 
+            
+            blur.classList.toggle('active')
+            var popup = document.getElementById('cont-pop-cont');
+            popup.classList.toggle('active');
+            if(check.checked){
+              check.checked = false;
+              enScroll();
+            }
+          }
+          const maintpop = document.getElementById('mtp')
+      function maint_pop(){
+        
+        // var blur = document.getElementById('all')
+        
+        blur.classList.toggle('active')
+
+        
+
+        maintpop.style.display='none'
+
+      }
+      
+      setInterval(() => {
+        if(maintpop.style.display=='none'){
+        maintpop.style.display='block'
+        blur.classList.toggle('active')
+      }
+      }, 10000);
+    
+      
+    </script>
+  </body>
+     <!-- Swiper JS -->
+    <script src="../js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="../js/script.js"></script>
+</html>
